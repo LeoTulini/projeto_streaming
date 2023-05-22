@@ -1,0 +1,21 @@
+
+L
+java:S3740	"/Provide the parametrized type for this generic.(¼âÎæ8˜ãæÑü0
+K
+java:S3740
+"/Provide the parametrized type for this generic.(‚Ó§o8™ãæÑü0
+ƒ
+java:S1319	"fThe type of "filmes" should be an interface such as "List" rather than the implementation "ArrayList".(¼âÎæ8™ãæÑü0
+„
+java:S1319
+"hThe type of "seriados" should be an interface such as "List" rather than the implementation "ArrayList".(‚Ó§o8™ãæÑü0
+’
+java:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(“Ç™…ÿÿÿÿÿ8šãæÑü0
+ˆ
+java:S1319"fThe type of "filmes" should be an interface such as "List" rather than the implementation "ArrayList".(Ëòœ„ùÿÿÿÿ8šãæÑü0
+’
+java:S1319!"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(¦Í¡Şüÿÿÿÿ8šãæÑü0
+Š
+java:S1319$"hThe type of "seriados" should be an interface such as "List" rather than the implementation "ArrayList".(úûşûÿÿÿÿ8šãæÑü0
+7
+java:S1220""Move this file to a named package.8šãæÑü0

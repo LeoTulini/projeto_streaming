@@ -1,6 +1,5 @@
 import org.junit.Test;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 
 public class ColecaoTest {
@@ -8,9 +7,9 @@ public class ColecaoTest {
     @Test
     public void deveAdicionarUmaObraNaColecao(){
         Colecao netflix = new Colecao();
-        Obra Vingadores3 = new Obra(001,"Vingadores 3",2018, "Leonardo", Arrays.asList("Robert Downey", "Chris Evans"), Tipo.FILME);
-        Obra Vingadores4 = new Obra(002,"Vingadores 4",2020, "Joao", Arrays.asList("Robert Downey", "Chris Evans"), Tipo.FILME);
-        Obra GOT = new Obra(003,"Game Of Thrones",2021, "Felipe", Arrays.asList("Pedro Pascal", "Bella Ramsey"), Tipo.SERIADO);
+        Audiovisual Vingadores3 = new Audiovisual(001,"Vingadores 3",2018, "Leonardo", Arrays.asList("Robert Downey", "Chris Evans"), Genero.FILME);
+        Audiovisual Vingadores4 = new Audiovisual(002,"Vingadores 4",2020, "Joao", Arrays.asList("Robert Downey", "Chris Evans"), Genero.FILME);
+        Audiovisual GOT = new Audiovisual(003,"Game Of Thrones",2021, "Felipe", Arrays.asList("Pedro Pascal", "Bella Ramsey"), Genero.SERIADO);
         netflix.adicionar(Vingadores3);
         netflix.adicionar(Vingadores4);
         netflix.adicionar(GOT);
@@ -21,9 +20,9 @@ public class ColecaoTest {
     @Test
     public void deveRetornarAConsultaPorNomeDoObjeto(){
         Colecao netflix = new Colecao();
-        Obra Vingadores3 = new Obra(001,"Vingadores 3",2018, "Leonardo", Arrays.asList("Robert Downey", "Chris Evans"), Tipo.FILME);
-        Obra Vingadores4 = new Obra(002,"Vingadores 4",2020, "Joao", Arrays.asList("Robert Downey", "Chris Evans"), Tipo.FILME);
-        Obra GOT = new Obra(003,"Game Of Thrones",2021, "Felipe", Arrays.asList("Pedro Pascal", "Bella Ramsey"), Tipo.SERIADO);
+        Audiovisual Vingadores3 = new Audiovisual(001,"Vingadores 3",2018, "Leonardo", Arrays.asList("Robert Downey", "Chris Evans"), Genero.FILME);
+        Audiovisual Vingadores4 = new Audiovisual(002,"Vingadores 4",2020, "Joao", Arrays.asList("Robert Downey", "Chris Evans"), Genero.FILME);
+        Audiovisual GOT = new Audiovisual(003,"Game Of Thrones",2021, "Felipe", Arrays.asList("Pedro Pascal", "Bella Ramsey"), Genero.SERIADO);
         netflix.adicionar(Vingadores3);
         netflix.adicionar(Vingadores4);
         netflix.adicionar(GOT);

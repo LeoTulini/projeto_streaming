@@ -1,0 +1,13 @@
+
+7
+java:S1220""Move this file to a named package.8Ò„›Óü0
+£
+java:S11866"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Œ‹ÜÙùÿÿÿÿ8Ù„›Óü0
+>
+java:S11166"Remove this empty statement.(Œ‹ÜÙùÿÿÿÿ8Ş„›Óü0
+Y
+java:S1854C"<Remove this useless assignment to local variable "response".(Ü®®8ºú¦Óü0
+J
+java:S1481C"-Remove this unused "response" local variable.(Ü®®8¿ú¦Óü0
+P
+java:S1068".Remove this unused "streamings" private field.(å´Â†üÿÿÿÿ8æ„›Óü0
